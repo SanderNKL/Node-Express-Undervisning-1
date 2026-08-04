@@ -16,8 +16,4 @@ app.get('/', (req, res) => {
 /* Våre Routes! */
 app.use('/users', userRouter)
 
-
-const port = 8000;
-app.listen(port, () => {
-    console.log(`Listening on port: ${port}`)
-})
+export default app;
