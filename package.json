@@ -2,7 +2,7 @@
   "name": "dagens-prosjekt",
   "version": "1.0.0",
   "description": "",
-  "main": "src/app.js",
+  "main": "src/server.js",
   "type": "module",
   "scripts": {
     "start": "node .",
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^5.2.1",
+    "supertest": "^7.2.2",
     "vitest": "^4.1.10",
     "zod": "^4.4.3"
   }
