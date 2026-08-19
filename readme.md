@@ -1,5 +1,6 @@
 
 # Lag RefreshToken table
+````
 CREATE TABLE RefreshTokens (
     id INT IDENTITY(1,1) PRIMARY KEY,
     token VARCHAR(255) NOT NULL,
@@ -12,3 +13,4 @@ CREATE TABLE RefreshTokens (
         FOREIGN KEY (userId)
         REFERENCES Users(id)
 );
+```
